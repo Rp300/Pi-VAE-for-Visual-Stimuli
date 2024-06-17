@@ -11,8 +11,8 @@ The code for the models is written in Python 3.6. In addition to standard scient
 (This is directly taken from code source.)
 
   #### Note
-  Many notebooks were run with the packages provided by requirements.txt file. However to get replicable results and have the model operate as intended (for this TF/Keras implementation) I recommend using above versions as a base
-
+  Many notebooks were run with the packages provided by requirements.txt file. However to get replicable model results as source paper (for this TF/Keras implementation) I recommend using requirements from source as a baseline.
+  - TODO: Distill requirements.txt
 
 ## Model
 Pi-VAE model implementation is directly inherited from original paper
