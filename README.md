@@ -5,6 +5,15 @@ Repository for Master's thesis: "Interpreting Latent Manifolds of High-Dimension
 
 This repository contains the research project focused on constructing latent manifolds of high-dimensional neuron spike activity, aiming to generate low-dimensional latent plots displaying geometric structure indicative of salient factors capturing neuron behavior. The directory structure is organized to facilitate clarity and accessibility of various project components.
 
+
+## Running Code
+The code for the models is written in Python 3.6. In addition to standard scientific Python libraries (numpy, scipy, matplotlib), the code expects the tensorflow (1.13.1) and keras (2.3.1) packages.
+(This is directly taken from code source.)
+
+  #### Note
+  Many notebooks were run with the packages provided by requirements.txt file. However to get replicable results and have the model operate as intended (for this TF/Keras implementation) I recommend using above versions as a base
+
+
 ## Model
 Pi-VAE model implementation is directly inherited from original paper
 
