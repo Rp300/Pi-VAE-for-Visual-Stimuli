@@ -6,10 +6,14 @@ Repository for Master's thesis: "Interpreting Latent Manifolds of High-Dimension
 This repository contains the research project focused on constructing latent manifolds of high-dimensional neuron spike activity, aiming to generate low-dimensional latent plots displaying geometric structure indicative of salient factors capturing neuron behavior. The directory structure is organized to facilitate clarity and accessibility of various project components.
 
 ## Model
-Pi-VAE model implementation is directly inherited from original paper code found here: https://github.com/zhd96/pi-vae/tree/main
+Pi-VAE model implementation is directly inherited from original paper
+
+Zhou, D., Wei, X. Learning identifiable and interpretable latent models of high-dimensional neural activity using pi-VAE. NeurIPS 2020. https://arxiv.org/abs/2011.04798
+
+Code found here: https://github.com/zhd96/pi-vae/tree/main
 
 ## Data source
-1. Allen Institute Visual Coding – Neuropixels Project
+Allen Institute Visual Coding – Neuropixels Project
   - https://portal.brain-map.org/circuits-behavior/visual-coding-neuropixels
   - https://portal.brain-map.org/circuits-behavior/visual-behavior-neuropixels
 
@@ -40,8 +44,7 @@ Pi-VAE model implementation is directly inherited from original paper code found
           - `modeling/`: Notebooks for model training and tuning.
           - `preprocessing/`: Notebooks for ingesting and preprocessing data.
 
-      - `pi_vae/`: Contains implementation of Pi-VAE and VAE models directly taken from
-        Zhou, D., Wei, X. Learning identifiable and interpretable latent models of high-dimensional neural activity using pi-VAE. NeurIPS 2020. https://arxiv.org/abs/2011.04798
+      - `pi_vae/`: Contains implementation of Pi-VAE and VAE models directly taken from Zhou, D., Wei, X. code here: https://github.com/zhd96/pi-vae
 
       - `utils/`: Contains utility Python files for various project tasks.
           - `plotting.py`: Functions for saving plots.
