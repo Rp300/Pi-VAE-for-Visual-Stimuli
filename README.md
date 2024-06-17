@@ -19,7 +19,7 @@ Pi-VAE model implementation is directly inherited from original paper
 
 Zhou, D., Wei, X. Learning identifiable and interpretable latent models of high-dimensional neural activity using pi-VAE. NeurIPS 2020. https://arxiv.org/abs/2011.04798
 
-Code found here: https://github.com/zhd96/pi-vae/tree/main
+Source code found here: https://github.com/zhd96/pi-vae
 
 ## Data source
 Allen Institute Visual Coding – Neuropixels Project
