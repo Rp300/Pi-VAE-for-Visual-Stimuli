@@ -28,6 +28,7 @@ Allen Institute Visual Coding – Neuropixels Project
 
   SDK Documentation page: https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html
 
+NOTE: If using preprocessed `.h5` files, the key parameter to open is 'pivot' or 'key'. If this doesn't work please use `.csv` files, data is the same.
 
 ## Directory Structure
 
