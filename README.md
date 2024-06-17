@@ -40,7 +40,8 @@ Pi-VAE model implementation is directly inherited from original paper code found
           - `modeling/`: Notebooks for model training and tuning.
           - `preprocessing/`: Notebooks for ingesting and preprocessing data.
 
-      - `pi_vae/`: Contains implementation of Pi-VAE and VAE models directly taken from \textit{Zhou, D., Wei, X. Learning identifiable and interpretable latent models of high-dimensional neural activity using pi-VAE. NeurIPS 2020.} https://arxiv.org/abs/2011.04798
+      - `pi_vae/`: Contains implementation of Pi-VAE and VAE models directly taken from
+        Zhou, D., Wei, X. Learning identifiable and interpretable latent models of high-dimensional neural activity using pi-VAE. NeurIPS 2020. https://arxiv.org/abs/2011.04798
 
       - `utils/`: Contains utility Python files for various project tasks.
           - `plotting.py`: Functions for saving plots.
