@@ -1,0 +1,4 @@
+*.pyc
+*.DS_Store
+*.nwb
+data/raw/allen-sdk-data/_downloaded_data.json
